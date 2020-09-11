@@ -1,0 +1,8 @@
+version: "3.0"
+services:
+  parser:
+    container_name: "odota-parser"
+    build: https://github.com/odota/parser.git
+    image: odota-parser:latest
+    ports:
+      - "9000:5600/tcp"
