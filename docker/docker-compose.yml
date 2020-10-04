@@ -6,3 +6,5 @@ services:
     image: odota-parser:latest
     ports:
       - "9000:5600/tcp"
+  open-ai:
+    container_name: "open-ai"
