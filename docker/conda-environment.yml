@@ -1,6 +1,7 @@
 name: dota2_engine_env
 dependencies:
 - python=3.6
+- joblib
 - pytorch
 - torchvision
 - tensorflow

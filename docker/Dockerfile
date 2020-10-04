@@ -1,6 +1,6 @@
 FROM continuumio/miniconda3:4.8.2
 
-RUN apt-get update && apt-get install vim -y
+RUN apt-get update && apt-get install vim -y && apt install build-essential -y
 
 WORKDIR /app
 COPY conda-environment.yml environment.yml
